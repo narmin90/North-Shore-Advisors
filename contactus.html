@@ -23,7 +23,7 @@
     <!-- Navbar Section -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="/"><img src="images/North Shore Advisors-1-08.jpg" alt="logo" class="navbar__pic"></a>
+        <a href="/"><img src="images/North Shore Advisors-2-08.jpg" alt="logo" class="navbar__pic"></a>
             
             <!-- <span class="bar"></span> <img src="images/Service-Disabled Veteran-Owned-Certified.jpg" alt="sba" class="navbar__sbaPic"></a> -->
         <div class="navbar__toggle" id="mobile-menu">
@@ -63,7 +63,9 @@
     <div class="contact__left">
         <h3 class="contactus__color">Send your message</h3>
         <p class="contactus__color">Feel free to fill out the form below with any inquiries, and one of our team will get back to you as soon as possible.</p>
-        <form action="https://api.web3forms.com/submit" method="post">
+      
+        <!--<form action="https://api.web3forms.com/submit" method="post">-->
+        <form action="mail.php" method="post">
           <input type="hidden" name="access_key" value="c36e9a45-0460-41fb-8c3e-29f694e0c01e">
 
             <div class="input__row">
@@ -92,9 +94,9 @@
             <label>Message</label>
             <textarea  id="textarea" name="message" class="contactus__form_color" rows="5" placeholder="Hi, my name is Alexander Warner...."></textarea>
             
-            <!-- <div class="h-captcha" data-captcha="true"></div> -->
+          
         
-        <button type="submit">Send</button>
+        <button type="submit" name="submit">Send</button>
         
         </form>
     </div>
@@ -125,9 +127,9 @@
         <!-- <a href="/">Destinations</a> <a href="/">Sponsorships</a> -->
       </div>
       <div class="footer__logo">
-        <a href="/"><img src="images/North Shore Advisors-1-08.jpg" alt="logo" class="navbar__pic"></a>
+        <a href="/"><img src="images/North Shore Advisors-2-08.jpg" alt="logo" class="navbar__pic"></a>
       </div>
-      <p class="website__rights">© North Shore Advisors 2024. All rights reserved</p>
+      <p class="website__rights">© North Shore Consultants 2024. All rights reserved</p>
     </div>
 
     
@@ -192,7 +194,7 @@
 </div>
 
 <!-- <script src="https://web3forms.com/client/script.js" async defer></script> -->
-    <script src="app.js"></script>
+    <!--<script src="app.js"></script>-->
 </body>
 </html>
     
